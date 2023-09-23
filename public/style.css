@@ -1,0 +1,90 @@
+/* Define a style for the seat container */
+.seat-container {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Style each row */
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the row label (e.g., A, B, etc.) */
+  .row-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the seats */
+  .seats {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  /* Style individual seats */
+  .seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer; /* Add a cursor pointer for interactive selection */
+  }
+  
+  /* Style selected seats */
+  .seat.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style reserved seats */
+  .seat.reserved {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed; /* Disable cursor for reserved seats */
+  }
+  
+  
+/* Style the screen section */
+.screen {
+    height: 20px; /* Adjust the height as needed for your design */
+    background-color: #333; /* Screen color */
+    margin: 20px 500px 50px; /* Space between screen and the first row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the screen text */
+  .screen-text {
+    color: #fff; /* Text color */
+    font-size: 18px; /* Text size */
+  }
+  
+  /* Style for the submit button container */
+.submit-button {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed to control spacing */
+  }
+  
+  /* Style for the submit button */
+  #submit-seats {
+    padding: 10px 20px;
+    background-color: #000205; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for the submit button */
+  #submit-seats:hover {
+    background-color: #0056b3; /* Change to a darker shade for hover effect */
+  }
+  
